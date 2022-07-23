@@ -1,0 +1,1080 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html body{
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: 1.5px;
+}
+/*-------------------------float----------------------------*/
+.float{
+  position: fixed;
+  width: 120px;
+  right: 2%;
+  bottom:10%;
+}
+.float img{
+  width: 120px;
+}
+.float .floatContent{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+/*-------------------------amatitle----------------------------*/
+.amatitle{
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ .amatitle .amapic{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.amatitle img{
+  height: 50px;
+}
+.amatitle .title{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.amatitle .title span{
+  font-size: 46px;
+  color: red;
+  font-weight: 900;
+}
+/*-------------------------header-----------------------------*/
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  padding-top: 5px;
+}
+.header .headerWrap{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header .headerWrap .logoWrap{
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  align-items: center;
+  display: flex ;
+}
+.header .headerWrap .logoWrap img{
+  height: 35px;
+  width: auto;
+}
+.header .headerWrap .signWrap{
+  height: 50px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+}
+.header .headerWrap .signWrap .signIn{
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  line-height: 40px;
+  
+  margin-right: 10px;
+}
+.header .headerWrap .signWrap .signIn a{
+  color: #000;
+  display: block;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+  border:1px solid #000;
+}
+.header .headerWrap .signWrap .signIn a:hover{
+  border:1px solid rgb(255, 163, 87);
+  background-color: rgb(255, 163, 87);
+  color:#fff;
+}
+.header .headerWrap .signWrap span{
+  color:red;
+}
+/*-------------------------sec1----------------------------*/
+.sec1{
+  width: 100%;
+  overflow: hidden;
+  height: 450px;
+}
+.sec1 .slideWrap{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transition:0.6s all ease-in-out;
+}
+.sec1 .slideWrap img{
+  height: 450px;
+  
+}
+/*-------------------------sec2----------------------------*/
+.sec2{
+  width: 100%;
+  background-image: url('img/BG2_1.png');
+  background-size: auto 300px;
+  background-position: top center;
+  background-repeat:repeat-x;
+  padding: 100px 0;
+  
+}
+.sec2 .sec2Wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+.sec2 .sec2Wrap .good{
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.sec2 .sec2Wrap .good ul{
+  display: flex;
+  justify-content: center;
+}
+.sec2 .sec2Wrap .good ul li{
+  width: 200px;
+  margin: 0 10px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap{
+  width: 170px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap .pic img{
+  display: block;
+  margin: 0 auto;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap .content{
+  text-align: center;
+  margin-top: 10px;
+  color: #310f0f;
+  line-height: 20px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap .content span{
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.sec2 .sec2Wrap .top3{
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sec2 .sec2Wrap .top3 ul{
+  display: flex;
+  justify-content: center;
+}
+.sec2 .sec2Wrap .top3 ul li{
+  margin: 0 10px;
+  height:160px
+}
+.sec2 .sec2Wrap .top3 ul li img{
+  height: 160px;
+}
+/*-------------------------sec3----------------------------*/
+.sec3{
+  width: 100%;
+  background-image: url('img/BG3_1.svg');
+  background-position: top center;
+  padding: 70px  0;
+}
+.sec3 .sec3Wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+.sec3 .sec3Wrap .sec3Content{
+  width: 100%;
+  margin-top: 10px;
+}
+.sec3 .sec3Wrap .sec3Content ul li{
+  height: 200px;
+  width: 98%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap{
+  width: 98%;
+  height: 85%;
+  margin: 0 auto;
+  display: flex; 
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap img{
+  height: 100%;
+  display: block;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c1{
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  line-height: 20px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2{
+  width: 45%;
+  background-color:#ffe8ce;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 700;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_1{
+  width: 40%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2{
+  width: 20%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2 .c2_2rect{
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  background-color: #f79b33;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2 .c2_2rect .rec{
+  width: 23px;
+  height: 6px;
+  background-color: #fff;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_3{
+  width: 40%;
+} 
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_1{
+  width: 25%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_1 .rec{
+  width: 23px;
+  height: 4px;
+  background-color: #333333;
+  margin: 2px 0;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_2{
+  width: 75%;
+  height: 50px;
+  font-weight: 900;
+  font-size: 19px;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*-------------------------sec4----------------------------*/
+.sec4{
+  width: 100%;
+  padding-bottom: 100px;
+  background-image: url(img/BG3_1.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.sec4 .sec4Wrap{
+  width: 980px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.sec4 .sec4Wrap .tabWrap{
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+}
+.sec4 .sec4Wrap .tabWrap .t1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:end;
+}
+.tabDet{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 24px;
+  position: relative;
+}
+.sec4 .sec4Wrap .tabWrap .t1_1{
+  background-color: #fff;
+}
+.sec4 .sec4Wrap .tabWrap .t1_2{
+  background-color: #fbce12;
+}
+.sec4 .sec4Wrap .tabWrap .t1_3{
+  background-color: #c3c3c3;
+}
+.sec4 .sec4Wrap .tabWrap .t1_4{
+  background-color: #cacaca;
+}
+.sec4 .sec4Wrap .tabWrap .t1 .tag{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: -10px;
+  transform:rotate(45deg);
+}
+.color1{
+  background-color: #fbce12;
+}
+.color2{
+  background-color: #c3c3c3;
+}
+.color3{
+  background-color: #cacaca;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li{
+  height: 100px;
+  width: 100%;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li:nth-child(odd){
+  background-color: #f5f5f5;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li:nth-child(even){
+  background-color: #e5e5e5;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li>ul{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li>ul>li{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li>ul>li:nth-child(2){
+  background-color: #ffeda0;
+  color:red;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li:nth-child(even)>ul>li:nth-child(2){
+  background-color: #ffe370;
+}
+.sec4 .sec4Wrap .info{
+  width: 980px;
+  padding: 40px 70px;
+  color: #0c186a;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 70px;
+  line-height: 24px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+  letter-spacing: 1px;
+}
+.sec4 .sec4Wrap .info h3{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 15px;
+}
+/*-------------------------footer----------------------------*/
+.foot{
+  width: 100%;
+  background-color: #000;
+  padding: 50px 0;
+}
+.foot .footerWrap{
+  width: 700px;
+  margin: 0 auto;
+}
+.foot .footerWrap span{
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  line-height: 20px;
+}
+.foot .footerWrap span a{
+  color: rgb(53, 157, 243);
+}
+/*-------------------------input----------------------------*/
+.inpp{
+  width: 300px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.inpp .inWrap{
+  width: 280px;
+  height: 80px;
+}
+.inpp .inWrap input{
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  width: 150px;
+  transition:0.3s all ease-in-out;
+}
+.inpp .inWrap input.active{
+  width: 250px;
+  transition:0.3s all ease-in-out;
+}
+.inpp .pp{
+  width: 50px;
+  height: 50px;
+  background-color: #fda;
+  transition:0.5s all ease-in-out;
+}
+.iuu{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #fda;
+}
+.wid{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.18);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  margin: 0 auto;
+  
+  transition: 0.3s all ease-in-out;
+}
+.wid .inWr{
+  width: 60%;
+  height: 60%;
+  background-color: #fff;
+  top: 0;
+  left:0;
+  transform: translate(30%,30%);
+}
+.wid .close{
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 100%;
+  left:0; 
+  top:0;
+  position: absolute;
+  color: #fff;
+  font-weight: 900;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.inpp .cha{
+  height: 50px;
+  line-height: 50px;
+}
+.inpp .chb{
+  margin:50px 0
+}
+
+  /*-------------------------signin----------------------------*/ 
+.signInClass{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0,0,0,0.7);
+  display: none;
+  animation-name: sss;
+  animation-duration: 0.3s;
+  z-index: 999;
+}
+.show{
+  display: block;
+}
+@keyframes sss {
+  from{opacity: 0.5;}
+  to{opacity:1;}
+}
+.signInClass .sign_outer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.contain{
+  width: 425px;
+  height: 350px;
+  margin: 0 auto;
+  position: absolute;
+  right: -1000px;
+  top: 80px;
+  left:0;
+  bottom:0;
+  transition: 0.3s all ease-in-out;
+}
+.signInClass .sign_outer .container{
+  right: 0px;  
+}
+
+.signInClass .sign_outer .container label{
+  font-size: 18px;
+  font-weight: 700;
+}
+.inputType{
+  margin: 10px 0 0px 0;
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;   
+  transition: 0.3s all ease-in-out;
+}
+.ebutton{
+  background-color: #04AA6D;
+}
+.ebutton:hover{
+  background-color: #2beca5;
+  transition: 0.3s all ease-in-out;
+}
+.signInClass .sign_outer .container label:nth-child(8){
+  font-size: 16px;
+  margin: 10px 0;
+  display: block;
+}
+.signInClass .sign_outer .container label:nth-child(8) input[type=checkbox]{
+  margin-right: 10px;
+}
+.cancelbtn{ 
+  background-color: #aa0404;
+}
+.cancelbtn:hover{
+  background-color: #eb3030;
+  transition: 0.3s all ease-in-out;
+}
+.signInClass .sign_outer .container .psw{
+  float: right;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.signInClass .sign_outer .container .psw a{
+  color: rgb(172, 172, 172);;
+  transition: 0.3s all ease-in-out;
+}
+.signInClass .sign_outer .container .psw a:hover{
+  color: rgb(107, 107, 107);
+  transition: 0.3s all ease-in-out;
+}
+.signInClass .sign_outer .container2{
+  right: -1000px;
+}
+.mt_10{
+  margin-top: 20px;
+}
+.signInClass .sign_outer .container2 h3{
+  font-weight: 700;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.userScale{
+  display: block;
+  font-size: 12px;
+  color: red;
+  margin: 6px 0 10px 10px;
+  height: 20px;
+}
+
+
+
+
+
+@media (min-width:970px) and (max-width:1169px){
+
+/*-------------------------header-----------------------------*/
+.header .headerWrap .logoWrap{
+  margin-left: 50px;
+}
+.header .headerWrap .signWrap{
+  margin-right: 50px;
+}
+/*-------------------------float----------------------------*/
+.float{
+  width: 100px;
+}
+.float img{
+  width: 100px;
+}
+.float .floatContent{
+  font-size: 18px;
+  line-height: 26px;
+}
+/*-------------------------sec1----------------------------*/
+.sec1{
+  height: 400px;
+}
+.sec1 .slideWrap img{
+  height: 400px;
+}
+/*-------------------------sec2----------------------------*/
+.sec2 .sec2Wrap{
+  width: 900px;
+}
+.sec2 .sec2Wrap .good{
+  width: 860px;
+}
+.sec2 .sec2Wrap .good ul li{
+  width: 160px;
+}
+/*-------------------------sec3----------------------------*/
+.sec3 .sec3Wrap{
+  width: 860px;
+}
+.sec3 .sec3Wrap .sec3Content ul li{
+  height: 180px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap{
+  flex-wrap: wrap;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_2{
+  font-size: 18px;
+}
+/*-------------------------sec4----------------------------*/
+.sec4{
+  padding-bottom: 60px;
+}
+.sec4 .sec4Wrap{
+  width: 900px;
+}
+.sec4 .sec4Wrap .tabWrap .t1{
+  height: 80px;
+}
+.sec4 .sec4Wrap .tabWrap .t1 .tag{
+  border-radius:150px 0 0 0 ;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li{
+  height: 80px;
+}
+.sec4 .sec4Wrap .info{
+  width: 900px;
+}
+}
+
+
+
+
+
+@media (min-width:769px) and (max-width:969px){
+
+/*-------------------------header-----------------------------*/
+.header{
+  height: 50px;
+  padding-top: 0px;
+}
+.header .headerWrap .logoWrap{
+  margin-left: 30px;
+}
+.header .headerWrap .logoWrap img{
+  height: 25px;
+}
+.header .headerWrap .signWrap{
+  margin-right: 30px;
+}
+.header .headerWrap .signWrap .signIn{
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+}
+.header .headerWrap .signWrap .signIn a{
+  height: 30px;
+  width: 100px;
+}
+/*-------------------------float----------------------------*/
+.float{
+  width: 100px;
+}
+.float img{
+  width: 100px;
+}
+.float .floatContent{
+  font-size: 18px;
+  line-height: 26px;
+}
+/*-------------------------sec1----------------------------*/
+.sec1{
+  height: 300px;
+}
+.sec1 .slideWrap img{
+  height: 300px;
+
+}
+/*-------------------------sec2----------------------------*/
+.sec2{
+  padding: 90px 0;
+}
+.sec2 .sec2Wrap{
+  width: 100%;
+}
+.sec2 .sec2Wrap .good{
+  width: 100%;
+}
+.sec2 .sec2Wrap .good ul li{
+  width: 160px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap{
+  padding-top: 0px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap .content span{
+  font-size: 22px;
+}
+.sec2 .sec2Wrap .top3{
+  width: 100%;
+}
+.sec2 .sec2Wrap .top3 ul li{
+  margin: 0 5px;
+  width:28%;
+}
+.sec2 .sec2Wrap .top3 ul li img{
+  height: auto;
+  width: 100%;
+}
+/*-------------------------amatitle----------------------------*/
+ .amatitle{
+  width: 100%;
+}
+/*-------------------------sec3----------------------------*/
+.sec3 .sec3Wrap{
+  width: 100%;
+}
+.sec3 .sec3Wrap .sec3Content ul li{
+  height: 130px;
+  width: 95%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap{
+  flex-wrap: wrap;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2 .c2_2rect{
+  width: 33px;
+  height: 33px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2 .c2_2rect .rec{
+  width: 15px;
+  height: 3px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3{
+  width: 23%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_1{
+  width: 20%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_1 .rec{
+  width: 18px;
+  height: 3px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_2{
+  width: 80%;
+  font-size: 18px;
+}
+/*-------------------------sec4----------------------------*/
+.sec4{
+  padding-bottom: 60px;
+}
+.sec4 .sec4Wrap{
+  width: 95%;
+}
+.sec4 .sec4Wrap .tabWrap .t1{
+  height: 80px;
+}
+.sec4 .sec4Wrap .tabWrap .t1 .tag{
+  width: 20px;
+  height: 20px;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li{
+  height: 80px;
+}
+.sec4 .sec4Wrap .info{
+  width: 100%;
+  padding: 40px 30px;
+}
+/*-------------------------footer----------------------------*/
+.foot .footerWrap{
+  width: 100%;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:768px){
+  
+/*-------------------------signin----------------------------*/ 
+.signInClass .sign_outer{
+  width: 90%;
+  height: 450px;
+}
+.contain{
+  width: 90%;
+}
+.signInClass .sign_outer .container label{
+  font-size: 16px;
+}
+.inputType{
+  height: 30px;
+}
+.btn{
+  font-size: 16px;   
+}
+.signInClass .sign_outer .container label:nth-child(8){
+  font-size: 14px;
+}
+.signInClass .sign_outer .container2 h3{
+  font-size: 24px;
+}
+
+/*-------------------------header-----------------------------*/
+.header{
+  height: 50px;
+  padding-top: 0px;
+}
+.header .headerWrap .logoWrap{
+  margin-left: 10px;
+}
+.header .headerWrap .logoWrap img{
+  height: 20px;
+}
+.header .headerWrap .signWrap{
+  margin-right: 10px;
+}
+.header .headerWrap .signWrap .signIn{
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+}
+.header .headerWrap .signWrap .signIn a{
+  height: 30px;
+  width: 100px;
+}
+.header .headerWrap .signWrap .signInfo{
+  display: none;
+}
+/*-------------------------float----------------------------*/
+.float{
+  width: 50px;
+  bottom:2%;
+  right:8%;
+}
+.float img{
+  width: 60px;
+}
+.float .floatContent{
+  font-size: 12px;
+  line-height: 26px;
+  display: none;
+}
+/*-------------------------sec1----------------------------*/
+.sec1{
+  height: 200px;
+}
+.sec1 .slideWrap img{
+  height: 200px;
+}
+/*-------------------------sec2----------------------------*/
+.sec2{
+  padding: 40px 0;
+}
+.sec2 .sec2Wrap{
+  width: 100%;  
+}
+.sec2 .sec2Wrap .good{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.sec2 .sec2Wrap .good ul{
+  flex-wrap: wrap;
+}
+.sec2 .sec2Wrap .good ul li{
+  width: 120px;
+  margin: 20px 10px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap{
+  padding-top: 0px;
+  width: 120px;
+}
+.sec2 .sec2Wrap .good ul li .goodWrap .content span{
+  font-size: 22px;
+}
+
+.sec2 .sec2Wrap .top3{
+  width: 100%;
+}
+.sec2 .sec2Wrap .top3 ul{
+  flex-wrap: wrap;
+}
+.sec2 .sec2Wrap .top3 ul li{
+  margin: 30px 0px;
+  width:70%;
+  height: auto;
+  margin-bottom: 0px;
+}
+.sec2 .sec2Wrap .top3 ul li img{
+  height: auto;
+  width: 100%;
+}
+/*-------------------------amatitle----------------------------*/
+ .amatitle{
+  width: 100%;
+}
+.amatitle img{
+  height: 30px;
+}
+.amatitle .title{
+  font-size: 26px;
+}
+.amatitle .title span{
+  font-size: 26px;
+}
+/*-------------------------sec3----------------------------*/
+.sec3{
+  padding: 40px  0;
+}
+.sec3 .sec3Wrap{
+  width: 100%;
+}
+.sec3 .sec3Wrap .sec3Content ul li{
+  height: 130px;
+  width: 90%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap{
+  width: 100%;
+  height: 90%;
+  font-size: 14px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0 5px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap img{
+  max-width: 100px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c1{
+  width: 70%;
+  height: 20%;
+  line-height: 18px;
+  font-size: 15px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2{
+  width: 70%;
+  height: 60%;
+  line-height: 18px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_1{
+  width: 45%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2 .c2_2rect{
+  width: 22px;
+  height: 22px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_2 .c2_2rect .rec{
+  width: 12px;
+  height: 3px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c2 .c2_3{
+  width: 45%;
+} 
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3{
+  width: 70%;
+  height: 20%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_1{
+  width: 20%;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_1 .rec{
+  width: 18px;
+  height: 3px;
+}
+.sec3 .sec3Wrap .sec3Content ul li .contentWrap .c3 .c3_2{
+  width: 100%;
+  font-size: 16px;
+}
+/*-------------------------sec4----------------------------*/
+.sec4{
+  padding-bottom: 40px;
+}
+.sec4 .sec4Wrap{
+  width: 95%;
+}
+.sec4 .sec4Wrap .tabWrap .t1{
+  height: 80px;
+}
+.tabDet{
+  height: 80px;
+  font-size: 16px;
+}
+.sec4 .sec4Wrap .tabWrap .t1 .tag{
+  width: 20px;
+  height: 20px;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li{
+  height: 80px;
+}
+.sec4 .sec4Wrap .tabWrap .itemWrap>ul>li>ul>li{
+  font-size: 14px;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 18px;
+}
+.sec4 .sec4Wrap .info{
+  width: 100%;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+.sec4 .sec4Wrap .info h3{
+  font-size: 16px;
+}
+/*-------------------------footer----------------------------*/
+.foot .footerWrap{
+  width: 100%;
+}
+.foot .footerWrap span{
+  font-size: 12px;
+}
+}
